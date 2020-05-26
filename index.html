@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- TITLE -->
+    <title>Chris' Map Project</title>
+    <!-- METAS -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- SCRIPTS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+    <!-- LINKS -->
+    <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css"/>
+    <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css"/>
+    <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <!-- GIVE ID DIVS -->
+    <div id="map"></div>
+    <div id="instructions"></div>
+    <!-- SCRIPTS FOR BODY -->
+    <script src="scripts/setup.js"></script>
+    <script src="scripts/directions.js"></script>
+    <script src="scripts/geocoder.js"></script>
+    <script src="scripts/geolocate.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/marker.js"></script>
+  </body>
+</html>
